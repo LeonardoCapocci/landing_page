@@ -1,6 +1,7 @@
 * {
     border: 1px solid red;
 }
+
 body {
     display: flex;
     flex: 1;
@@ -8,17 +9,66 @@ body {
     margin: 0px;
 }
 
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
 .header {
-    color: white;
+    color: #E5E7EB;
     background-color: #1F2937;
+    font-size: 18px;
+}
+
+.headerlogo {
+    color: white;
+    font-size: 24px;
 }
 
 .headerlinks {
     margin: 10px;
 }
 
-.body {
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
 
+.container {
+    display: flex;
+    flex: 1;
+    
+}
+
+.vcontainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.title {
+    margin: 0px;
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.button{
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882F6;
+}
+
+.body {
+    color: black;
 }
 
 .quote {
