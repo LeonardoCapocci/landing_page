@@ -35,6 +35,7 @@ body {
     margin: 10px;
     margin-right: 0px;
     display: flex;
+    gap: 20px;
 }
 
 a {
@@ -109,12 +110,38 @@ a {
 }
 
 /* quote section */
-.quote {
-    
+
+.quotecontainer {
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
+.quote {
+    margin: 50px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 520px;
+}
+
+.nametag {
+    text-align: right;
+}
+
+.quotecontainer p {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* signup section */
 .signup {}
 
+
+
+/* footer section */
 .footer {
 
 }
