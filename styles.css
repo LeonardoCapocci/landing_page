@@ -52,6 +52,11 @@ a {
     align-items: center;
 }
 
+.herocontainer img {
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+}
+
 .herosubcontainer {
     display: flex;
     flex-direction: column;
@@ -93,12 +98,12 @@ a {
 .bodysubcontainer {
     display: flex;
     flex-direction: column;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .pic {
-    width: 150px;
-    height: 225px;
+    width: 200px;
+    height: 300px;
     object-fit: cover;
     border: 4px solid #3882F6;
     border-radius: 15px;
