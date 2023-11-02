@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     display: flex;
     flex: 1;
@@ -11,6 +16,7 @@ body {
     color: #E5E7EB;
     background-color: #1F2937;
     font-size: 18px;
+    max-width: 100%;
 }
 
 .navbarcontainer {
@@ -50,20 +56,21 @@ a {
     margin-top: 50px;
     margin-bottom: 50px;
     align-items: center;
-}
-
-.herocontainer img {
-    border-radius: 15px;
-    border: 4px solid #3882F6;
-    width: 392px;
-    height: 220px;
+    max-width: 100%;
 }
 
 .herosubcontainer {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
-    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+    max-width: min(90%, 400px);
+}
+.herocontainer img {
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+    width: 392px;
+    height: 220px;
 }
 
 .title {
@@ -96,6 +103,7 @@ a {
     gap: 10px;
     max-width: 75%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .pic {
