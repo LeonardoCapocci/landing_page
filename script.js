@@ -1,6 +1,5 @@
 let captions = [
   'Our First Halloween',
-  'Placeholder',
   'Our First Formal Pregame',
   'First Formal at Venue',
   'Champagne and Shackles',
