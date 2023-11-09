@@ -36,7 +36,7 @@ let captions = [
   'Han Solo and Leia',
 ]
 
-for (let i = 1; i <= 36; i++) {
+for (let i = 1; i <= 35; i++) {
   // Create a new div element for each set of images
   const imageContainer = document.createElement('div');
   imageContainer.className = 'imageContainer';
