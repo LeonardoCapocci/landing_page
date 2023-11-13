@@ -186,3 +186,7 @@ a {
     display: flex;
     justify-content: center;
 }
+
+.footer {
+    padding: 5px;
+}
