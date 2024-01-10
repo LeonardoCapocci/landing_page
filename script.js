@@ -34,8 +34,9 @@ let captions = [
   'Parasailing!',
   'Catalina Island',
   'Han Solo and Leia',
-  'Christmas Card Lane',
-  'Grand Canyon'
+  'Candy Cane Lane',
+  'Grand Canyon',
+  'Bottom of Grand Canyon Hike'
 ]
 
 for (let i = 1; i <= 36; i++) {
