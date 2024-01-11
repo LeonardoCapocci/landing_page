@@ -34,12 +34,13 @@ let captions = [
   'Parasailing!',
   'Catalina Island',
   'Han Solo and Leia',
-  'Candy Cane Lane',
-  'Grand Canyon',
-  'Bottom of Grand Canyon Hike'
+  'Candy Cane Lane again',
+  'Sedona First Night',
+  'Bottom of Grand Canyon Hike',
+  'Leaving Sedona Hike',
 ]
 
-for (let i = 1; i <= 36; i++) {
+for (let i = 1; i <= 39; i++) {
   // Create a new div element for each set of images
   const imageContainer = document.createElement('div');
   imageContainer.className = 'imageContainer';
